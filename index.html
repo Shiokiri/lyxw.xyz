@@ -5,62 +5,81 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>neoSoda</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<title>shiokiri | 落影汐雾</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.png" alt="" /></span>
-							<h1>neoSoda</h1>
-							<p>虚和实的叠重 光和影的交错</p>
-						</header>
-						<footer>
-							<ul class="icons">
-								<li><a href="https://t.me/cctcoh" class="icon brands fa-telegram-plane">Telegram</a></li>
-								<li><a href="https://github.com/neoSodas" class="icon brands fa-github">GitHub</a></li>
-								<li><a href="mailto:xluoying2017@gmail.com" class="far fa-envelope">Gmail</a></li>
-							</ul>
-							<ul class="icons">
-								<a href="https://66ccff.xyz/Virtual-Dimension" class="button">Virtual Dimension</a>
-							</ul>
-							<center class="actions">
-								<a href="https://blog.66ccff.xyz" class="button">Blog</a>
-							</center>
-						</footer>
-					</section>
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; neoSoda</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+		<!-- Main -->
 
-			</div>
-			
-		<!-- Scripts -->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+		<section id="main">
+			<header>
+				<span class="avatar"><img src="images/avatar.png" alt="" /></span>
+				<h1>shiokiri</h1>
+				<p>虚和实的叠重 光和影的交错</p>
+			</header>
+			<footer>
+				<ul class="icons">
+					<li><a href="https://t.me/cctcoh" class="icon brands fa-telegram-plane">Telegram</a></li>
+					<li><a href="https://github.com/shiokiri" class="icon brands fa-github">GitHub</a></li>
+					<li><a href="mailto:xluoying2017@gmail.com" class="far fa-envelope">Gmail</a></li>
+				</ul>
+				<ul class="icons">
+					<a href="https://66ccff.xyz/Virtual-Dimension" class="button">Virtual Dimension</a>
+					
+				</ul>
+				<center class="actions">
+					<a href="https://blog.66ccff.xyz" class="button">Blog</a>
+					<a href="https://shiokiri.66ccff.xyz" class="button">ShioKiri</a>
+				</center>
+			</footer>
+		</section>
 
-	</body>
-	<script type="text/javascript" language="javascript">
-		　　var linkObject = document.createElement('link');
-		　　linkObject.rel = "shortcut icon";
-		　　linkObject.href = "images/avatar.png";
-		　　document.getElementsByTagName("head")[0].appendChild(linkObject);
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="copyright">
+				<li>&copy; ShioKiri</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script>
+		if ('addEventListener' in window) {
+			document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+			window.addEventListener('load', function () {
+				document.body.className = document.body.className.replace(/\bis-preload\b/, '');
+				var images = ['bg1.jpg', 'bg2.jpg', 'bg3.png', 'bg4.jpg', 'bg5.png', 'bg6.jpg', 'bg7.jpg', 'bg8.jpg', 'bg9.jpg', 'bg10.jpg'];
+				let str;
+				str = 'url(\'assets/css/images/overlay.png\'),-webkit-linear-gradient(60deg,rgba(255,165,150,0) 5%,rgba(0,228,255,0)),' + 'url(\'images/' + images[Math.floor(Math.random() * images.length)] + '\')';
+				document.body.style.backgroundImage = str;
+				str = 'url(\'assets/css/images/overlay.png\'),-moz-linear-gradient(60deg,rgba(255,165,150,0) 5%,rgba(0,228,255,0)),' + 'url(\'images/' + images[Math.floor(Math.random() * images.length)] + '\')';
+				document.body.style.backgroundImage = str;
+				str = 'url(\'assets/css/images/overlay.png\'),-ms-linear-gradient(60deg,rgba(255,165,150,0) 5%,rgba(0,228,255,0)),' + 'url(\'images/' + images[Math.floor(Math.random() * images.length)] + '\')';
+				document.body.style.backgroundImage = str;
+				str = 'url(\'assets/css/images/overlay.png\'),linear-gradient(60deg,rgba(255,165,150,0) 5%,rgba(0,228,255,0)),' + 'url(\'images/' + images[Math.floor(Math.random() * images.length)] + '\')';
+				document.body.style.backgroundImage = str;
+			});
+		}
 	</script>
+
+</body>
+<script type="text/javascript" language="javascript">
+	var linkObject = document.createElement('link');
+	linkObject.rel = "shortcut icon";
+	linkObject.href = "images/avatar.png";
+	document.getElementsByTagName("head")[0].appendChild(linkObject);
+</script>
+
 </html>
